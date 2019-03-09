@@ -1,11 +1,11 @@
 @font-face{
     font-family: 'Open Sans';
-    src: url('/assets/fonts/OpenSans-Regular.ttf') format('truetype');
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face{
     font-family: 'Oswald';
-    src: url('/assets/fonts/Oswald-Regular.ttf') format('truetype');
+    src: url('../fonts/Oswald-Regular.ttf') format('truetype');
 }
 
 body{
@@ -19,11 +19,8 @@ body{
     content: '';
     height: 100vh;
     width: 100%;
-    background-image: url('/assets/img/header_bg.jpg');
+    background-image: url('../img/header_bg.jpg');
     background-size: cover; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
